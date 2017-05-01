@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SimpleTableViewController : UITableViewController
+@interface SimpleTableViewController : UITableViewController{
+    NSMutableArray *marr_TutorialsList;
+}
+@property (strong, nonatomic) IBOutlet UITableView *tbl_TutorialsList;
 
 @end

@@ -15,6 +15,8 @@
 		C86183D21EAE60F7000C08DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86183D01EAE60F7000C08DA /* LaunchScreen.storyboard */; };
 		C86183DD1EAE60F7000C08DA /* AllInOne_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183DC1EAE60F7000C08DA /* AllInOne_ObjCTests.m */; };
 		C86183E81EAE60F7000C08DA /* AllInOne_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183E71EAE60F7000C08DA /* AllInOne_ObjCUITests.m */; };
+		C876CB241EB30C0300CBE149 /* Obj-CTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */; };
+		C876CB271EB3108F00CBE149 /* Obj-CTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C876CB261EB3108F00CBE149 /* Obj-CTableViewCell.m */; };
 		C8DFDCBD1EAFBB9400A1E4F1 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFDCBC1EAFBB9400A1E4F1 /* SimpleTableViewController.m */; };
 		C8DFDCC31EAFBE0400A1E4F1 /* SimpleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFDCC21EAFBE0400A1E4F1 /* SimpleTableViewCell.m */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,10 @@
 		C86183E31EAE60F7000C08DA /* AllInOne_ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllInOne_ObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86183E71EAE60F7000C08DA /* AllInOne_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllInOne_ObjCUITests.m; sourceTree = "<group>"; };
 		C86183E91EAE60F7000C08DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C876CB221EB30C0300CBE149 /* Obj-CTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CTableViewController.h"; sourceTree = "<group>"; };
+		C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CTableViewController.m"; sourceTree = "<group>"; };
+		C876CB251EB3108F00CBE149 /* Obj-CTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CTableViewCell.h"; sourceTree = "<group>"; };
+		C876CB261EB3108F00CBE149 /* Obj-CTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CTableViewCell.m"; sourceTree = "<group>"; };
 		C8DFDCBB1EAFBB9400A1E4F1 /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
 		C8DFDCBC1EAFBB9400A1E4F1 /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
 		C8DFDCC11EAFBE0400A1E4F1 /* SimpleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewCell.h; sourceTree = "<group>"; };
@@ -111,6 +117,7 @@
 				C86183C81EAE60F7000C08DA /* Main.storyboard */,
 				C86183CE1EAE60F7000C08DA /* Assets.xcassets */,
 				C8DFDCC01EAFBDC700A1E4F1 /* Table */,
+				C876CB211EB30B7800CBE149 /* Objective-C basic */,
 				C86183D01EAE60F7000C08DA /* LaunchScreen.storyboard */,
 				C86183D31EAE60F7000C08DA /* Info.plist */,
 				C86183CB1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld */,
@@ -143,6 +150,17 @@
 				C86183E91EAE60F7000C08DA /* Info.plist */,
 			);
 			path = AllInOne_ObjCUITests;
+			sourceTree = "<group>";
+		};
+		C876CB211EB30B7800CBE149 /* Objective-C basic */ = {
+			isa = PBXGroup;
+			children = (
+				C876CB221EB30C0300CBE149 /* Obj-CTableViewController.h */,
+				C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */,
+				C876CB251EB3108F00CBE149 /* Obj-CTableViewCell.h */,
+				C876CB261EB3108F00CBE149 /* Obj-CTableViewCell.m */,
+			);
+			name = "Objective-C basic";
 			sourceTree = "<group>";
 		};
 		C8DFDCC01EAFBDC700A1E4F1 /* Table */ = {
@@ -294,6 +312,8 @@
 				C86183C11EAE60F7000C08DA /* main.m in Sources */,
 				C8DFDCC31EAFBE0400A1E4F1 /* SimpleTableViewCell.m in Sources */,
 				C8DFDCBD1EAFBB9400A1E4F1 /* SimpleTableViewController.m in Sources */,
+				C876CB241EB30C0300CBE149 /* Obj-CTableViewController.m in Sources */,
+				C876CB271EB3108F00CBE149 /* Obj-CTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

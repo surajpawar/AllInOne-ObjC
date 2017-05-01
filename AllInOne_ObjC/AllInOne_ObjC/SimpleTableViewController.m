@@ -8,10 +8,9 @@
 
 #import "SimpleTableViewController.h"
 #import "SimpleTableViewCell.h"
+#import "Obj-CTableViewController.h"
 
-@interface SimpleTableViewController (){
-    NSMutableArray *tutorialsListArray;
-}
+@interface SimpleTableViewController ()
 
 @end
 
@@ -26,7 +25,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    tutorialsListArray = [[NSMutableArray alloc] initWithObjects:@"Table", nil];
+    marr_TutorialsList = [[NSMutableArray alloc] initWithObjects:@"Objective-C basic", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,66 +42,34 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return [tutorialsListArray count];
+    return [marr_TutorialsList count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SimpleTableViewCell" forIndexPath:indexPath];
+    
+    static NSString *identifier = @"SimpleTableViewCell";
+    
+    SimpleTableViewCell *cell = [_tbl_TutorialsList dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
     
     if (cell==nil) {
-        
+       
     }
-    cell.
+    cell.lbl_TutorialName.text= [marr_TutorialsList objectAtIndex:indexPath.row];
     
     
     return cell;
 }
 
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (indexPath.row==0) {
+        
+        Obj_CTableViewController *objc_VC = [[self storyboard]instantiateViewControllerWithIdentifier:@"Obj_CTableViewController"];
+        [self.navigationController pushViewController:objc_VC animated:YES];
+        
+    }
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
