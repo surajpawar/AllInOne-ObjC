@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612138111EB84C8000F3DF85 /* Obj-CIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138101EB84C8000F3DF85 /* Obj-CIntroViewController.m */; };
+		612138321EB8685A00F3DF85 /* Obj-CBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138311EB8685A00F3DF85 /* Obj-CBasicViewController.m */; };
+		612138351EB8841700F3DF85 /* Obj-CFunctionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138341EB8841700F3DF85 /* Obj-CFunctionsViewController.m */; };
+		612138381EB8848A00F3DF85 /* Obj-CBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138371EB8848A00F3DF85 /* Obj-CBlocksViewController.m */; };
+		6121383B1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6121383A1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m */; };
+		6121383E1EB88A9D00F3DF85 /* NSString+RemoveNums.m in Sources */ = {isa = PBXBuildFile; fileRef = 6121383D1EB88A9D00F3DF85 /* NSString+RemoveNums.m */; };
+		612138411EB891C300F3DF85 /* Obj-CCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138401EB891C300F3DF85 /* Obj-CCategoriesViewController.m */; };
+		612138471EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138461EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m */; };
+		6121384B1EB8A08600F3DF85 /* IMPCodesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6121384A1EB8A08600F3DF85 /* IMPCodesTableViewController.m */; };
+		612138511EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138501EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m */; };
 		C82B883C1EB8048F00D3E56B /* Instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C82B883B1EB8048F00D3E56B /* Instructions.rtf */; };
 		C86183C11EAE60F7000C08DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183C01EAE60F7000C08DA /* main.m */; };
 		C86183C41EAE60F7000C08DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183C31EAE60F7000C08DA /* AppDelegate.m */; };
@@ -40,6 +50,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6121380F1EB84C8000F3DF85 /* Obj-CIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CIntroViewController.h"; sourceTree = "<group>"; };
+		612138101EB84C8000F3DF85 /* Obj-CIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CIntroViewController.m"; sourceTree = "<group>"; };
+		612138301EB8685A00F3DF85 /* Obj-CBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CBasicViewController.h"; sourceTree = "<group>"; };
+		612138311EB8685A00F3DF85 /* Obj-CBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CBasicViewController.m"; sourceTree = "<group>"; };
+		612138331EB8841700F3DF85 /* Obj-CFunctionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CFunctionsViewController.h"; sourceTree = "<group>"; };
+		612138341EB8841700F3DF85 /* Obj-CFunctionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CFunctionsViewController.m"; sourceTree = "<group>"; };
+		612138361EB8848A00F3DF85 /* Obj-CBlocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CBlocksViewController.h"; sourceTree = "<group>"; };
+		612138371EB8848A00F3DF85 /* Obj-CBlocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CBlocksViewController.m"; sourceTree = "<group>"; };
+		612138391EB884FF00F3DF85 /* Obj-CNum&StrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CNum&StrViewController.h"; sourceTree = "<group>"; };
+		6121383A1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CNum&StrViewController.m"; sourceTree = "<group>"; };
+		6121383C1EB88A9D00F3DF85 /* NSString+RemoveNums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveNums.h"; sourceTree = "<group>"; };
+		6121383D1EB88A9D00F3DF85 /* NSString+RemoveNums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RemoveNums.m"; sourceTree = "<group>"; };
+		6121383F1EB891C300F3DF85 /* Obj-CCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CCategoriesViewController.h"; sourceTree = "<group>"; };
+		612138401EB891C300F3DF85 /* Obj-CCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CCategoriesViewController.m"; sourceTree = "<group>"; };
+		612138451EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningDeviceAppsViewController.h; sourceTree = "<group>"; };
+		612138461EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningDeviceAppsViewController.m; sourceTree = "<group>"; };
+		612138491EB8A08600F3DF85 /* IMPCodesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPCodesTableViewController.h; sourceTree = "<group>"; };
+		6121384A1EB8A08600F3DF85 /* IMPCodesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPCodesTableViewController.m; sourceTree = "<group>"; };
+		6121384C1EB8AAD700F3DF85 /* SimpleProtocolExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleProtocolExample.h; sourceTree = "<group>"; };
+		6121384E1EB8B48100F3DF85 /* NSString_ExtensionExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_ExtensionExample.h; sourceTree = "<group>"; };
+		6121384F1EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CAllStorageTypesViewController.h"; sourceTree = "<group>"; };
+		612138501EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CAllStorageTypesViewController.m"; sourceTree = "<group>"; };
 		C82B883B1EB8048F00D3E56B /* Instructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Instructions.rtf; sourceTree = "<group>"; };
 		C86183BC1EAE60F7000C08DA /* AllInOne_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOne_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86183C01EAE60F7000C08DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +123,240 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612138121EB84C9300F3DF85 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				6121380F1EB84C8000F3DF85 /* Obj-CIntroViewController.h */,
+				612138101EB84C8000F3DF85 /* Obj-CIntroViewController.m */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		612138161EB84CD400F3DF85 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				612138301EB8685A00F3DF85 /* Obj-CBasicViewController.h */,
+				612138311EB8685A00F3DF85 /* Obj-CBasicViewController.m */,
+			);
+			name = Basics;
+			sourceTree = "<group>";
+		};
+		612138171EB84E2400F3DF85 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				612138331EB8841700F3DF85 /* Obj-CFunctionsViewController.h */,
+				612138341EB8841700F3DF85 /* Obj-CFunctionsViewController.m */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		612138181EB84E3D00F3DF85 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				612138361EB8848A00F3DF85 /* Obj-CBlocksViewController.h */,
+				612138371EB8848A00F3DF85 /* Obj-CBlocksViewController.m */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		612138191EB84E6300F3DF85 /* Number & Strings */ = {
+			isa = PBXGroup;
+			children = (
+				612138391EB884FF00F3DF85 /* Obj-CNum&StrViewController.h */,
+				6121383A1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m */,
+			);
+			name = "Number & Strings";
+			sourceTree = "<group>";
+		};
+		6121381A1EB84E7B00F3DF85 /* All Storage Types */ = {
+			isa = PBXGroup;
+			children = (
+				6121384F1EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.h */,
+				612138501EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m */,
+			);
+			name = "All Storage Types";
+			sourceTree = "<group>";
+		};
+		6121381B1EB84EE100F3DF85 /* Pointers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pointers;
+			sourceTree = "<group>";
+		};
+		6121381C1EB84EEC00F3DF85 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Structures;
+			sourceTree = "<group>";
+		};
+		6121381D1EB84EFE00F3DF85 /* Preprocessors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Preprocessors;
+			sourceTree = "<group>";
+		};
+		6121381E1EB84F1500F3DF85 /* Typedef */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Typedef;
+			sourceTree = "<group>";
+		};
+		6121381F1EB84F2A00F3DF85 /* Type Casting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Type Casting";
+			sourceTree = "<group>";
+		};
+		612138201EB84F4C00F3DF85 /* Log Handling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Log Handling";
+			sourceTree = "<group>";
+		};
+		612138211EB84F6400F3DF85 /* Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Error Handling";
+			sourceTree = "<group>";
+		};
+		612138221EB84F9F00F3DF85 /* Multi Threading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Multi Threading";
+			sourceTree = "<group>";
+		};
+		612138231EB84FBB00F3DF85 /* Classes & Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Classes & Objects";
+			sourceTree = "<group>";
+		};
+		612138241EB8508700F3DF85 /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Inheritance;
+			sourceTree = "<group>";
+		};
+		612138251EB8509B00F3DF85 /* Polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Polymorphism;
+			sourceTree = "<group>";
+		};
+		612138261EB850B100F3DF85 /* Data Encapsulation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Encapsulation";
+			sourceTree = "<group>";
+		};
+		612138271EB850E300F3DF85 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				612138421EB8939800F3DF85 /* NSString Category */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		612138281EB8511100F3DF85 /* Posing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Posing;
+			sourceTree = "<group>";
+		};
+		612138291EB8512600F3DF85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6121384E1EB8B48100F3DF85 /* NSString_ExtensionExample.h */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6121382A1EB8513A00F3DF85 /* Protocols / Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				6121384C1EB8AAD700F3DF85 /* SimpleProtocolExample.h */,
+			);
+			name = "Protocols / Delegates";
+			sourceTree = "<group>";
+		};
+		6121382B1EB8514A00F3DF85 /* Dynamic Binding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Dynamic Binding";
+			sourceTree = "<group>";
+		};
+		6121382C1EB8515E00F3DF85 /* Composite Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Composite Objects";
+			sourceTree = "<group>";
+		};
+		6121382D1EB8519B00F3DF85 /* Foundation Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Foundation Framework";
+			sourceTree = "<group>";
+		};
+		6121382E1EB851AE00F3DF85 /* Fast Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Fast Enumeration";
+			sourceTree = "<group>";
+		};
+		6121382F1EB851C400F3DF85 /* Memory Management */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Memory Management";
+			sourceTree = "<group>";
+		};
+		612138421EB8939800F3DF85 /* NSString Category */ = {
+			isa = PBXGroup;
+			children = (
+				6121383C1EB88A9D00F3DF85 /* NSString+RemoveNums.h */,
+				6121383D1EB88A9D00F3DF85 /* NSString+RemoveNums.m */,
+				6121383F1EB891C300F3DF85 /* Obj-CCategoriesViewController.h */,
+				612138401EB891C300F3DF85 /* Obj-CCategoriesViewController.m */,
+			);
+			name = "NSString Category";
+			sourceTree = "<group>";
+		};
+		612138441EB89F3B00F3DF85 /* IMP Codes */ = {
+			isa = PBXGroup;
+			children = (
+				612138491EB8A08600F3DF85 /* IMPCodesTableViewController.h */,
+				6121384A1EB8A08600F3DF85 /* IMPCodesTableViewController.m */,
+				612138481EB8A00500F3DF85 /* App To Device */,
+			);
+			name = "IMP Codes";
+			sourceTree = "<group>";
+		};
+		612138481EB8A00500F3DF85 /* App To Device */ = {
+			isa = PBXGroup;
+			children = (
+				612138451EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.h */,
+				612138461EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m */,
+			);
+			name = "App To Device";
+			sourceTree = "<group>";
+		};
 		C86183B31EAE60F7000C08DA = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +385,9 @@
 				C86183C31EAE60F7000C08DA /* AppDelegate.m */,
 				C86183C81EAE60F7000C08DA /* Main.storyboard */,
 				C86183CE1EAE60F7000C08DA /* Assets.xcassets */,
-				C8DFDCC01EAFBDC700A1E4F1 /* Table */,
+				C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */,
 				C876CB211EB30B7800CBE149 /* Objective-C basic */,
+				612138441EB89F3B00F3DF85 /* IMP Codes */,
 				C86183D01EAE60F7000C08DA /* LaunchScreen.storyboard */,
 				C86183D31EAE60F7000C08DA /* Info.plist */,
 				C86183CB1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld */,
@@ -162,11 +429,38 @@
 				C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */,
 				C876CB251EB3108F00CBE149 /* Obj-CTableViewCell.h */,
 				C876CB261EB3108F00CBE149 /* Obj-CTableViewCell.m */,
+				612138121EB84C9300F3DF85 /* Intro */,
+				612138161EB84CD400F3DF85 /* Basics */,
+				612138171EB84E2400F3DF85 /* Functions */,
+				612138181EB84E3D00F3DF85 /* Blocks */,
+				612138191EB84E6300F3DF85 /* Number & Strings */,
+				6121381A1EB84E7B00F3DF85 /* All Storage Types */,
+				6121381B1EB84EE100F3DF85 /* Pointers */,
+				6121381C1EB84EEC00F3DF85 /* Structures */,
+				6121381D1EB84EFE00F3DF85 /* Preprocessors */,
+				6121381E1EB84F1500F3DF85 /* Typedef */,
+				6121381F1EB84F2A00F3DF85 /* Type Casting */,
+				612138201EB84F4C00F3DF85 /* Log Handling */,
+				612138211EB84F6400F3DF85 /* Error Handling */,
+				6121382F1EB851C400F3DF85 /* Memory Management */,
+				6121382E1EB851AE00F3DF85 /* Fast Enumeration */,
+				6121382D1EB8519B00F3DF85 /* Foundation Framework */,
+				6121382C1EB8515E00F3DF85 /* Composite Objects */,
+				6121382B1EB8514A00F3DF85 /* Dynamic Binding */,
+				6121382A1EB8513A00F3DF85 /* Protocols / Delegates */,
+				612138291EB8512600F3DF85 /* Extensions */,
+				612138281EB8511100F3DF85 /* Posing */,
+				612138271EB850E300F3DF85 /* Categories */,
+				612138261EB850B100F3DF85 /* Data Encapsulation */,
+				612138251EB8509B00F3DF85 /* Polymorphism */,
+				612138241EB8508700F3DF85 /* Inheritance */,
+				612138231EB84FBB00F3DF85 /* Classes & Objects */,
+				612138221EB84F9F00F3DF85 /* Multi Threading */,
 			);
 			name = "Objective-C basic";
 			sourceTree = "<group>";
 		};
-		C8DFDCC01EAFBDC700A1E4F1 /* Table */ = {
+		C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */ = {
 			isa = PBXGroup;
 			children = (
 				C8DFDCBB1EAFBB9400A1E4F1 /* SimpleTableViewController.h */,
@@ -174,7 +468,7 @@
 				C8DFDCC11EAFBE0400A1E4F1 /* SimpleTableViewCell.h */,
 				C8DFDCC21EAFBE0400A1E4F1 /* SimpleTableViewCell.m */,
 			);
-			name = Table;
+			name = "Simple Table";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,12 +605,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612138511EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m in Sources */,
 				C86183CD1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld in Sources */,
+				612138471EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m in Sources */,
 				C86183C41EAE60F7000C08DA /* AppDelegate.m in Sources */,
+				6121384B1EB8A08600F3DF85 /* IMPCodesTableViewController.m in Sources */,
 				C86183C11EAE60F7000C08DA /* main.m in Sources */,
+				612138111EB84C8000F3DF85 /* Obj-CIntroViewController.m in Sources */,
+				6121383B1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m in Sources */,
 				C8DFDCC31EAFBE0400A1E4F1 /* SimpleTableViewCell.m in Sources */,
+				6121383E1EB88A9D00F3DF85 /* NSString+RemoveNums.m in Sources */,
 				C8DFDCBD1EAFBB9400A1E4F1 /* SimpleTableViewController.m in Sources */,
+				612138351EB8841700F3DF85 /* Obj-CFunctionsViewController.m in Sources */,
+				612138381EB8848A00F3DF85 /* Obj-CBlocksViewController.m in Sources */,
+				612138411EB891C300F3DF85 /* Obj-CCategoriesViewController.m in Sources */,
 				C876CB241EB30C0300CBE149 /* Obj-CTableViewController.m in Sources */,
+				612138321EB8685A00F3DF85 /* Obj-CBasicViewController.m in Sources */,
 				C876CB271EB3108F00CBE149 /* Obj-CTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
