@@ -19,12 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    marr_TutorialsList = [[NSMutableArray alloc] initWithObjects:@"Objective-C basic", nil];
+    marr_TutorialsList = [[NSMutableArray alloc] initWithObjects:@"Objective-C basic",@"IMP Codes",@"Delegates",@"UIElements",@"Tables",@"Device Sensors",@"Camera Management",@"Maps & Location Handling",@"Audio & Video",@"SQLite Database",@"Core Data",@"Social Media",@"In-App Purchase",@"iAd Integration",@"Health-Kit", nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 #pragma mark - Table view data source
