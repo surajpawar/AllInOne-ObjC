@@ -17,6 +17,8 @@
 		612138471EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138461EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m */; };
 		6121384B1EB8A08600F3DF85 /* IMPCodesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6121384A1EB8A08600F3DF85 /* IMPCodesTableViewController.m */; };
 		612138511EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138501EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m */; };
+		C821E7B71EC29DD000D3AF8D /* Obj-PolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C821E7B61EC29DD000D3AF8D /* Obj-PolymorphismViewController.m */; };
+		C821E7BA1EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C821E7B91EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m */; };
 		C82B883C1EB8048F00D3E56B /* Instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C82B883B1EB8048F00D3E56B /* Instructions.rtf */; };
 		C86183C11EAE60F7000C08DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183C01EAE60F7000C08DA /* main.m */; };
 		C86183C41EAE60F7000C08DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183C31EAE60F7000C08DA /* AppDelegate.m */; };
@@ -28,6 +30,8 @@
 		C86183E81EAE60F7000C08DA /* AllInOne_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183E71EAE60F7000C08DA /* AllInOne_ObjCUITests.m */; };
 		C876CB241EB30C0300CBE149 /* Obj-CTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */; };
 		C876CB271EB3108F00CBE149 /* Obj-CTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C876CB261EB3108F00CBE149 /* Obj-CTableViewCell.m */; };
+		C89D83781EBF661600386DEB /* Obj-InheritanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C89D83771EBF661600386DEB /* Obj-InheritanceViewController.m */; };
+		C8D1CDD21EBF5A5D00F9FAB9 /* Obj_ClassesAndObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D1CDD11EBF5A5D00F9FAB9 /* Obj_ClassesAndObjectViewController.m */; };
 		C8DFDCBD1EAFBB9400A1E4F1 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFDCBC1EAFBB9400A1E4F1 /* SimpleTableViewController.m */; };
 		C8DFDCC31EAFBE0400A1E4F1 /* SimpleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DFDCC21EAFBE0400A1E4F1 /* SimpleTableViewCell.m */; };
 /* End PBXBuildFile section */
@@ -72,6 +76,10 @@
 		6121384E1EB8B48100F3DF85 /* NSString_ExtensionExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_ExtensionExample.h; sourceTree = "<group>"; };
 		6121384F1EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CAllStorageTypesViewController.h"; sourceTree = "<group>"; };
 		612138501EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CAllStorageTypesViewController.m"; sourceTree = "<group>"; };
+		C821E7B51EC29DD000D3AF8D /* Obj-PolymorphismViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-PolymorphismViewController.h"; sourceTree = "<group>"; };
+		C821E7B61EC29DD000D3AF8D /* Obj-PolymorphismViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-PolymorphismViewController.m"; sourceTree = "<group>"; };
+		C821E7B81EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-Encapsulation&AbstractionViewController.h"; sourceTree = "<group>"; };
+		C821E7B91EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-Encapsulation&AbstractionViewController.m"; sourceTree = "<group>"; };
 		C82B883B1EB8048F00D3E56B /* Instructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Instructions.rtf; sourceTree = "<group>"; };
 		C86183BC1EAE60F7000C08DA /* AllInOne_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOne_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86183C01EAE60F7000C08DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +100,10 @@
 		C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CTableViewController.m"; sourceTree = "<group>"; };
 		C876CB251EB3108F00CBE149 /* Obj-CTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CTableViewCell.h"; sourceTree = "<group>"; };
 		C876CB261EB3108F00CBE149 /* Obj-CTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CTableViewCell.m"; sourceTree = "<group>"; };
+		C89D83761EBF661600386DEB /* Obj-InheritanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-InheritanceViewController.h"; sourceTree = "<group>"; };
+		C89D83771EBF661600386DEB /* Obj-InheritanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-InheritanceViewController.m"; sourceTree = "<group>"; };
+		C8D1CDD01EBF5A5D00F9FAB9 /* Obj_ClassesAndObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obj_ClassesAndObjectViewController.h; sourceTree = "<group>"; };
+		C8D1CDD11EBF5A5D00F9FAB9 /* Obj_ClassesAndObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Obj_ClassesAndObjectViewController.m; sourceTree = "<group>"; };
 		C8DFDCBB1EAFBB9400A1E4F1 /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
 		C8DFDCBC1EAFBB9400A1E4F1 /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
 		C8DFDCC11EAFBE0400A1E4F1 /* SimpleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewCell.h; sourceTree = "<group>"; };
@@ -236,6 +248,8 @@
 		612138231EB84FBB00F3DF85 /* Classes & Objects */ = {
 			isa = PBXGroup;
 			children = (
+				C8D1CDD01EBF5A5D00F9FAB9 /* Obj_ClassesAndObjectViewController.h */,
+				C8D1CDD11EBF5A5D00F9FAB9 /* Obj_ClassesAndObjectViewController.m */,
 			);
 			name = "Classes & Objects";
 			sourceTree = "<group>";
@@ -243,6 +257,8 @@
 		612138241EB8508700F3DF85 /* Inheritance */ = {
 			isa = PBXGroup;
 			children = (
+				C89D83761EBF661600386DEB /* Obj-InheritanceViewController.h */,
+				C89D83771EBF661600386DEB /* Obj-InheritanceViewController.m */,
 			);
 			name = Inheritance;
 			sourceTree = "<group>";
@@ -250,6 +266,8 @@
 		612138251EB8509B00F3DF85 /* Polymorphism */ = {
 			isa = PBXGroup;
 			children = (
+				C821E7B51EC29DD000D3AF8D /* Obj-PolymorphismViewController.h */,
+				C821E7B61EC29DD000D3AF8D /* Obj-PolymorphismViewController.m */,
 			);
 			name = Polymorphism;
 			sourceTree = "<group>";
@@ -257,6 +275,8 @@
 		612138261EB850B100F3DF85 /* Data Encapsulation */ = {
 			isa = PBXGroup;
 			children = (
+				C821E7B81EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.h */,
+				C821E7B91EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m */,
 			);
 			name = "Data Encapsulation";
 			sourceTree = "<group>";
@@ -388,6 +408,22 @@
 				C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */,
 				C876CB211EB30B7800CBE149 /* Objective-C basic */,
 				612138441EB89F3B00F3DF85 /* IMP Codes */,
+				C8D1CDCF1EBF53D500F9FAB9 /* Widgets */,
+				C8D1CDCE1EBF53C700F9FAB9 /* Watch-Kit */,
+				C8D1CDCD1EBF53A600F9FAB9 /* Health-Kit */,
+				C8D1CDCC1EBF538F00F9FAB9 /* IAd Integration */,
+				C8D1CDCB1EBF537000F9FAB9 /* In-App Purchase */,
+				C8D1CDCA1EBF535F00F9FAB9 /* Social Media */,
+				C8D1CDC91EBF534700F9FAB9 /* CoreData */,
+				C8D1CDC81EBF532F00F9FAB9 /* Sqlite Database */,
+				C8D1CDC71EBF531400F9FAB9 /* Audio & Video */,
+				C8D1CDC61EBF52F700F9FAB9 /* Location Handling */,
+				C8D1CDC51EBF52EA00F9FAB9 /* Maps */,
+				C8D1CDC41EBF52C700F9FAB9 /* Camara Management */,
+				C8D1CDC31EBF52B000F9FAB9 /* Device Sensors */,
+				C8D1CDC21EBF52A100F9FAB9 /* Tables */,
+				C8D1CDC11EBF528F00F9FAB9 /* UIElements */,
+				C8D1CDC01EBF527800F9FAB9 /* Delegates */,
 				C86183D01EAE60F7000C08DA /* LaunchScreen.storyboard */,
 				C86183D31EAE60F7000C08DA /* Info.plist */,
 				C86183CB1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld */,
@@ -458,6 +494,118 @@
 				612138221EB84F9F00F3DF85 /* Multi Threading */,
 			);
 			name = "Objective-C basic";
+			sourceTree = "<group>";
+		};
+		C8D1CDC01EBF527800F9FAB9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		C8D1CDC11EBF528F00F9FAB9 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIElements;
+			sourceTree = "<group>";
+		};
+		C8D1CDC21EBF52A100F9FAB9 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		C8D1CDC31EBF52B000F9FAB9 /* Device Sensors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Device Sensors";
+			sourceTree = "<group>";
+		};
+		C8D1CDC41EBF52C700F9FAB9 /* Camara Management */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Camara Management";
+			sourceTree = "<group>";
+		};
+		C8D1CDC51EBF52EA00F9FAB9 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		C8D1CDC61EBF52F700F9FAB9 /* Location Handling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Location Handling";
+			sourceTree = "<group>";
+		};
+		C8D1CDC71EBF531400F9FAB9 /* Audio & Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Audio & Video";
+			sourceTree = "<group>";
+		};
+		C8D1CDC81EBF532F00F9FAB9 /* Sqlite Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Sqlite Database";
+			sourceTree = "<group>";
+		};
+		C8D1CDC91EBF534700F9FAB9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		C8D1CDCA1EBF535F00F9FAB9 /* Social Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Social Media";
+			sourceTree = "<group>";
+		};
+		C8D1CDCB1EBF537000F9FAB9 /* In-App Purchase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "In-App Purchase";
+			sourceTree = "<group>";
+		};
+		C8D1CDCC1EBF538F00F9FAB9 /* IAd Integration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "IAd Integration";
+			sourceTree = "<group>";
+		};
+		C8D1CDCD1EBF53A600F9FAB9 /* Health-Kit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Health-Kit";
+			sourceTree = "<group>";
+		};
+		C8D1CDCE1EBF53C700F9FAB9 /* Watch-Kit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Watch-Kit";
+			sourceTree = "<group>";
+		};
+		C8D1CDCF1EBF53D500F9FAB9 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Widgets;
 			sourceTree = "<group>";
 		};
 		C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */ = {
@@ -609,13 +757,17 @@
 				C86183CD1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld in Sources */,
 				612138471EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m in Sources */,
 				C86183C41EAE60F7000C08DA /* AppDelegate.m in Sources */,
+				C8D1CDD21EBF5A5D00F9FAB9 /* Obj_ClassesAndObjectViewController.m in Sources */,
 				6121384B1EB8A08600F3DF85 /* IMPCodesTableViewController.m in Sources */,
 				C86183C11EAE60F7000C08DA /* main.m in Sources */,
+				C821E7BA1EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m in Sources */,
 				612138111EB84C8000F3DF85 /* Obj-CIntroViewController.m in Sources */,
 				6121383B1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m in Sources */,
 				C8DFDCC31EAFBE0400A1E4F1 /* SimpleTableViewCell.m in Sources */,
+				C821E7B71EC29DD000D3AF8D /* Obj-PolymorphismViewController.m in Sources */,
 				6121383E1EB88A9D00F3DF85 /* NSString+RemoveNums.m in Sources */,
 				C8DFDCBD1EAFBB9400A1E4F1 /* SimpleTableViewController.m in Sources */,
+				C89D83781EBF661600386DEB /* Obj-InheritanceViewController.m in Sources */,
 				612138351EB8841700F3DF85 /* Obj-CFunctionsViewController.m in Sources */,
 				612138381EB8848A00F3DF85 /* Obj-CBlocksViewController.m in Sources */,
 				612138411EB891C300F3DF85 /* Obj-CCategoriesViewController.m in Sources */,
