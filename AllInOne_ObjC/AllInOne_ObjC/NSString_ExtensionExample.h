@@ -53,8 +53,53 @@
 
 /*
  
+ ****** 1.category ******
  
-*/
+ -> In objective c, when you want to add some more   functionality to a class without inheritance, you simply use category for it.
+ 
+ -> it come with its own .h and .m file
+ 
+ -> Category use to add new method not properties.
+ 
+ -> Category is a way to add methods to a class whether or not source code is available implies you can add category to foundation classes like NSString and also to your own custom classes
+ 
+ 
+ ***** 2.class extension ******
+ 
+ -> In objective c, when you want to make behavior of some property private you use class extension.
+ 
+ -> it comes with .m file only.
+ 
+ -> mainly for properties.
+ 
+ -> Extension can only be added to the classes whose source code is available because compiler compile the source code and extension at same time.
+ 
+ -> We can add extra instance variable and property in class extension but not in Category.
+ 
+ -> Any variable and method inside the extension is not even accessible to inherited class.
+ 
+ -> Category and Extension both are basically made to handle large code base but category is a way to extend class API in multiple source file while extension is a way to add required methods out side the main interface file.
+ 
+ -> Use category when you have to break your same class code into different source file according to different functionality and Extension when you just need to add some required methods to existing class outside the main interface file. also when you need to modify a publicly declared instance variable in a class. for ex: readonly to readwrite you can re declare it in extension.
+ 
+ 
+ 
+ * note: when we add a new file and select a option of objective c category it show category and "category on" not "subclass of" so it show like
+ 
+ @interface className (categoryName)
+ @end
+ -you get two file .h and . with file name as (className+categoryName.h and className+categoryName.m)
+ 
+ and in extension case you get
+ 
+ @interface className()
+ @end
+ -you get only one file with name as className_extensionName.h
+ 
+ * In category you don't own the class but in extension you are.
+ 
+ */
+
 
 
 @interface NSString ()

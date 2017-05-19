@@ -17,6 +17,12 @@
 		612138471EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138461EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m */; };
 		6121384B1EB8A08600F3DF85 /* IMPCodesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6121384A1EB8A08600F3DF85 /* IMPCodesTableViewController.m */; };
 		612138511EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138501EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m */; };
+		61274B041ECADD5700CB7AC9 /* InAppPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B031ECADD5700CB7AC9 /* InAppPurchaseViewController.m */; };
+		61274B3D1ECB23D000CB7AC9 /* UIBarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B3C1ECB23D000CB7AC9 /* UIBarsViewController.m */; };
+		61274B401ECB23EF00CB7AC9 /* UIViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B3F1ECB23EF00CB7AC9 /* UIViewsViewController.m */; };
+		61274B431ECB24F200CB7AC9 /* UIControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B421ECB24F200CB7AC9 /* UIControlsViewController.m */; };
+		61274B461ECB251200CB7AC9 /* UIExtensionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B451ECB251200CB7AC9 /* UIExtensionsViewController.m */; };
+		61274B491ECB254000CB7AC9 /* UITechnologiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B481ECB254000CB7AC9 /* UITechnologiesViewController.m */; };
 		C821E7B71EC29DD000D3AF8D /* Obj-PolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C821E7B61EC29DD000D3AF8D /* Obj-PolymorphismViewController.m */; };
 		C821E7BA1EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C821E7B91EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m */; };
 		C82B883C1EB8048F00D3E56B /* Instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C82B883B1EB8048F00D3E56B /* Instructions.rtf */; };
@@ -76,6 +82,18 @@
 		6121384E1EB8B48100F3DF85 /* NSString_ExtensionExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_ExtensionExample.h; sourceTree = "<group>"; };
 		6121384F1EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CAllStorageTypesViewController.h"; sourceTree = "<group>"; };
 		612138501EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CAllStorageTypesViewController.m"; sourceTree = "<group>"; };
+		61274B021ECADD5700CB7AC9 /* InAppPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseViewController.h; sourceTree = "<group>"; };
+		61274B031ECADD5700CB7AC9 /* InAppPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseViewController.m; sourceTree = "<group>"; };
+		61274B3B1ECB23D000CB7AC9 /* UIBarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBarsViewController.h; sourceTree = "<group>"; };
+		61274B3C1ECB23D000CB7AC9 /* UIBarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBarsViewController.m; sourceTree = "<group>"; };
+		61274B3E1ECB23EF00CB7AC9 /* UIViewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewsViewController.h; sourceTree = "<group>"; };
+		61274B3F1ECB23EF00CB7AC9 /* UIViewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewsViewController.m; sourceTree = "<group>"; };
+		61274B411ECB24F200CB7AC9 /* UIControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlsViewController.h; sourceTree = "<group>"; };
+		61274B421ECB24F200CB7AC9 /* UIControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControlsViewController.m; sourceTree = "<group>"; };
+		61274B441ECB251200CB7AC9 /* UIExtensionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIExtensionsViewController.h; sourceTree = "<group>"; };
+		61274B451ECB251200CB7AC9 /* UIExtensionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIExtensionsViewController.m; sourceTree = "<group>"; };
+		61274B471ECB254000CB7AC9 /* UITechnologiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITechnologiesViewController.h; sourceTree = "<group>"; };
+		61274B481ECB254000CB7AC9 /* UITechnologiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITechnologiesViewController.m; sourceTree = "<group>"; };
 		C821E7B51EC29DD000D3AF8D /* Obj-PolymorphismViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-PolymorphismViewController.h"; sourceTree = "<group>"; };
 		C821E7B61EC29DD000D3AF8D /* Obj-PolymorphismViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-PolymorphismViewController.m"; sourceTree = "<group>"; };
 		C821E7B81EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-Encapsulation&AbstractionViewController.h"; sourceTree = "<group>"; };
@@ -377,6 +395,436 @@
 			name = "App To Device";
 			sourceTree = "<group>";
 		};
+		61274B051ECB099F00CB7AC9 /* UI Bars */ = {
+			isa = PBXGroup;
+			children = (
+				61274B3B1ECB23D000CB7AC9 /* UIBarsViewController.h */,
+				61274B3C1ECB23D000CB7AC9 /* UIBarsViewController.m */,
+				61274B0A1ECB0AC400CB7AC9 /* Navigation Bar */,
+				61274B0B1ECB0AD300CB7AC9 /* Search Bar */,
+				61274B0C1ECB0AFF00CB7AC9 /* Status Bar */,
+				61274B0D1ECB0B0A00CB7AC9 /* Tab Bar */,
+				61274B0E1ECB14AC00CB7AC9 /* Tool Bar */,
+			);
+			name = "UI Bars";
+			sourceTree = "<group>";
+		};
+		61274B061ECB0A2C00CB7AC9 /* UI Views */ = {
+			isa = PBXGroup;
+			children = (
+				61274B3E1ECB23EF00CB7AC9 /* UIViewsViewController.h */,
+				61274B3F1ECB23EF00CB7AC9 /* UIViewsViewController.m */,
+				61274B0F1ECB157500CB7AC9 /* Action Sheets */,
+				61274B101ECB159800CB7AC9 /* Activity View */,
+				61274B111ECB159D00CB7AC9 /* Alerts */,
+				61274B121ECB15AD00CB7AC9 /* Collections */,
+				61274B131ECB15B500CB7AC9 /* Image Views */,
+				61274B141ECB15B800CB7AC9 /* Maps */,
+				61274B151ECB15BB00CB7AC9 /* Pages */,
+				61274B161ECB15BF00CB7AC9 /* Popovers */,
+				61274B171ECB15CA00CB7AC9 /* Scroll Views */,
+				61274B181ECB15D000CB7AC9 /* Splite Views */,
+				61274B191ECB15D300CB7AC9 /* Tables */,
+				61274B1A1ECB15D900CB7AC9 /* Text Views */,
+				61274B1B1ECB15DE00CB7AC9 /* Webviews */,
+			);
+			name = "UI Views";
+			sourceTree = "<group>";
+		};
+		61274B071ECB0A4400CB7AC9 /* UI Controls */ = {
+			isa = PBXGroup;
+			children = (
+				61274B411ECB24F200CB7AC9 /* UIControlsViewController.h */,
+				61274B421ECB24F200CB7AC9 /* UIControlsViewController.m */,
+				61274B1C1ECB176300CB7AC9 /* Buttons */,
+				61274B1D1ECB176800CB7AC9 /* Edit Menus */,
+				61274B1E1ECB176B00CB7AC9 /* Labels */,
+				61274B1F1ECB176E00CB7AC9 /* Page Controls */,
+				61274B201ECB177100CB7AC9 /* Pickers */,
+				61274B211ECB177400CB7AC9 /* Progress Indicators */,
+				61274B221ECB177600CB7AC9 /* Refresh Content Controls */,
+				61274B231ECB177A00CB7AC9 /* Segmented Controls */,
+				61274B241ECB177D00CB7AC9 /* Sliders */,
+				61274B251ECB178000CB7AC9 /* Steppers */,
+				61274B261ECB178300CB7AC9 /* Switches */,
+				61274B271ECB178500CB7AC9 /* Textfields */,
+			);
+			name = "UI Controls";
+			sourceTree = "<group>";
+		};
+		61274B081ECB0A7900CB7AC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				61274B441ECB251200CB7AC9 /* UIExtensionsViewController.h */,
+				61274B451ECB251200CB7AC9 /* UIExtensionsViewController.m */,
+				61274B281ECB1A1900CB7AC9 /* Custom Keyboards */,
+				61274B291ECB1A1C00CB7AC9 /* Document Providers */,
+				61274B2A1ECB1A2100CB7AC9 /* Home Screen Actions */,
+				61274B2B1ECB1A2500CB7AC9 /* Messaging */,
+				61274B2C1ECB1A2700CB7AC9 /* Photo Editing */,
+				61274B2D1ECB1A2A00CB7AC9 /* Sharing and Actions */,
+				61274B2E1ECB1A2D00CB7AC9 /* Widgets */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		61274B091ECB0A8200CB7AC9 /* Technologies */ = {
+			isa = PBXGroup;
+			children = (
+				61274B471ECB254000CB7AC9 /* UITechnologiesViewController.h */,
+				61274B481ECB254000CB7AC9 /* UITechnologiesViewController.m */,
+				61274B2F1ECB1AF500CB7AC9 /* Apple Pay */,
+				61274B301ECB1B0400CB7AC9 /* GameKit */,
+				61274B311ECB1B0900CB7AC9 /* HealthKit */,
+				61274B321ECB1B0C00CB7AC9 /* HomeKit */,
+				61274B331ECB1B0E00CB7AC9 /* ICloud */,
+				61274B341ECB1B1100CB7AC9 /* In-App Purchase */,
+				61274B351ECB1B1400CB7AC9 /* Live Photos */,
+				61274B361ECB1B1600CB7AC9 /* ResearchKit */,
+				61274B371ECB1B1900CB7AC9 /* Social Media */,
+				61274B381ECB1B1B00CB7AC9 /* Wallet */,
+			);
+			name = Technologies;
+			sourceTree = "<group>";
+		};
+		61274B0A1ECB0AC400CB7AC9 /* Navigation Bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Navigation Bar";
+			sourceTree = "<group>";
+		};
+		61274B0B1ECB0AD300CB7AC9 /* Search Bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Search Bar";
+			sourceTree = "<group>";
+		};
+		61274B0C1ECB0AFF00CB7AC9 /* Status Bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Status Bar";
+			sourceTree = "<group>";
+		};
+		61274B0D1ECB0B0A00CB7AC9 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		61274B0E1ECB14AC00CB7AC9 /* Tool Bar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tool Bar";
+			sourceTree = "<group>";
+		};
+		61274B0F1ECB157500CB7AC9 /* Action Sheets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Action Sheets";
+			sourceTree = "<group>";
+		};
+		61274B101ECB159800CB7AC9 /* Activity View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Activity View";
+			sourceTree = "<group>";
+		};
+		61274B111ECB159D00CB7AC9 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Alerts;
+			sourceTree = "<group>";
+		};
+		61274B121ECB15AD00CB7AC9 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		61274B131ECB15B500CB7AC9 /* Image Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Image Views";
+			sourceTree = "<group>";
+		};
+		61274B141ECB15B800CB7AC9 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		61274B151ECB15BB00CB7AC9 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		61274B161ECB15BF00CB7AC9 /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Popovers;
+			sourceTree = "<group>";
+		};
+		61274B171ECB15CA00CB7AC9 /* Scroll Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Scroll Views";
+			sourceTree = "<group>";
+		};
+		61274B181ECB15D000CB7AC9 /* Splite Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Splite Views";
+			sourceTree = "<group>";
+		};
+		61274B191ECB15D300CB7AC9 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		61274B1A1ECB15D900CB7AC9 /* Text Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Text Views";
+			sourceTree = "<group>";
+		};
+		61274B1B1ECB15DE00CB7AC9 /* Webviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Webviews;
+			sourceTree = "<group>";
+		};
+		61274B1C1ECB176300CB7AC9 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		61274B1D1ECB176800CB7AC9 /* Edit Menus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Edit Menus";
+			sourceTree = "<group>";
+		};
+		61274B1E1ECB176B00CB7AC9 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Labels;
+			sourceTree = "<group>";
+		};
+		61274B1F1ECB176E00CB7AC9 /* Page Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Page Controls";
+			sourceTree = "<group>";
+		};
+		61274B201ECB177100CB7AC9 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+		61274B211ECB177400CB7AC9 /* Progress Indicators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Progress Indicators";
+			sourceTree = "<group>";
+		};
+		61274B221ECB177600CB7AC9 /* Refresh Content Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Refresh Content Controls";
+			sourceTree = "<group>";
+		};
+		61274B231ECB177A00CB7AC9 /* Segmented Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Segmented Controls";
+			sourceTree = "<group>";
+		};
+		61274B241ECB177D00CB7AC9 /* Sliders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sliders;
+			sourceTree = "<group>";
+		};
+		61274B251ECB178000CB7AC9 /* Steppers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Steppers;
+			sourceTree = "<group>";
+		};
+		61274B261ECB178300CB7AC9 /* Switches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Switches;
+			sourceTree = "<group>";
+		};
+		61274B271ECB178500CB7AC9 /* Textfields */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Textfields;
+			sourceTree = "<group>";
+		};
+		61274B281ECB1A1900CB7AC9 /* Custom Keyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Custom Keyboards";
+			sourceTree = "<group>";
+		};
+		61274B291ECB1A1C00CB7AC9 /* Document Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Document Providers";
+			sourceTree = "<group>";
+		};
+		61274B2A1ECB1A2100CB7AC9 /* Home Screen Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Home Screen Actions";
+			sourceTree = "<group>";
+		};
+		61274B2B1ECB1A2500CB7AC9 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Messaging;
+			sourceTree = "<group>";
+		};
+		61274B2C1ECB1A2700CB7AC9 /* Photo Editing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Photo Editing";
+			sourceTree = "<group>";
+		};
+		61274B2D1ECB1A2A00CB7AC9 /* Sharing and Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Sharing and Actions";
+			sourceTree = "<group>";
+		};
+		61274B2E1ECB1A2D00CB7AC9 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		61274B2F1ECB1AF500CB7AC9 /* Apple Pay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Apple Pay";
+			sourceTree = "<group>";
+		};
+		61274B301ECB1B0400CB7AC9 /* GameKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GameKit;
+			sourceTree = "<group>";
+		};
+		61274B311ECB1B0900CB7AC9 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HealthKit;
+			sourceTree = "<group>";
+		};
+		61274B321ECB1B0C00CB7AC9 /* HomeKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomeKit;
+			sourceTree = "<group>";
+		};
+		61274B331ECB1B0E00CB7AC9 /* ICloud */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ICloud;
+			sourceTree = "<group>";
+		};
+		61274B341ECB1B1100CB7AC9 /* In-App Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				61274B021ECADD5700CB7AC9 /* InAppPurchaseViewController.h */,
+				61274B031ECADD5700CB7AC9 /* InAppPurchaseViewController.m */,
+			);
+			name = "In-App Purchase";
+			sourceTree = "<group>";
+		};
+		61274B351ECB1B1400CB7AC9 /* Live Photos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Live Photos";
+			sourceTree = "<group>";
+		};
+		61274B361ECB1B1600CB7AC9 /* ResearchKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ResearchKit;
+			sourceTree = "<group>";
+		};
+		61274B371ECB1B1900CB7AC9 /* Social Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Social Media";
+			sourceTree = "<group>";
+		};
+		61274B381ECB1B1B00CB7AC9 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Wallet;
+			sourceTree = "<group>";
+		};
+		61274B3A1ECB222C00CB7AC9 /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Design Patterns";
+			sourceTree = "<group>";
+		};
 		C86183B31EAE60F7000C08DA = {
 			isa = PBXGroup;
 			children = (
@@ -407,23 +855,20 @@
 				C86183CE1EAE60F7000C08DA /* Assets.xcassets */,
 				C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */,
 				C876CB211EB30B7800CBE149 /* Objective-C basic */,
+				61274B051ECB099F00CB7AC9 /* UI Bars */,
+				61274B061ECB0A2C00CB7AC9 /* UI Views */,
+				61274B071ECB0A4400CB7AC9 /* UI Controls */,
+				61274B081ECB0A7900CB7AC9 /* Extensions */,
+				61274B091ECB0A8200CB7AC9 /* Technologies */,
 				612138441EB89F3B00F3DF85 /* IMP Codes */,
-				C8D1CDCF1EBF53D500F9FAB9 /* Widgets */,
-				C8D1CDCE1EBF53C700F9FAB9 /* Watch-Kit */,
-				C8D1CDCD1EBF53A600F9FAB9 /* Health-Kit */,
+				C8D1CDCE1EBF53C700F9FAB9 /* WatchKit */,
 				C8D1CDCC1EBF538F00F9FAB9 /* IAd Integration */,
-				C8D1CDCB1EBF537000F9FAB9 /* In-App Purchase */,
-				C8D1CDCA1EBF535F00F9FAB9 /* Social Media */,
 				C8D1CDC91EBF534700F9FAB9 /* CoreData */,
 				C8D1CDC81EBF532F00F9FAB9 /* Sqlite Database */,
 				C8D1CDC71EBF531400F9FAB9 /* Audio & Video */,
-				C8D1CDC61EBF52F700F9FAB9 /* Location Handling */,
-				C8D1CDC51EBF52EA00F9FAB9 /* Maps */,
 				C8D1CDC41EBF52C700F9FAB9 /* Camara Management */,
 				C8D1CDC31EBF52B000F9FAB9 /* Device Sensors */,
-				C8D1CDC21EBF52A100F9FAB9 /* Tables */,
-				C8D1CDC11EBF528F00F9FAB9 /* UIElements */,
-				C8D1CDC01EBF527800F9FAB9 /* Delegates */,
+				61274B3A1ECB222C00CB7AC9 /* Design Patterns */,
 				C86183D01EAE60F7000C08DA /* LaunchScreen.storyboard */,
 				C86183D31EAE60F7000C08DA /* Info.plist */,
 				C86183CB1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld */,
@@ -461,60 +906,39 @@
 		C876CB211EB30B7800CBE149 /* Objective-C basic */ = {
 			isa = PBXGroup;
 			children = (
-				C876CB221EB30C0300CBE149 /* Obj-CTableViewController.h */,
-				C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */,
 				C876CB251EB3108F00CBE149 /* Obj-CTableViewCell.h */,
+				C876CB221EB30C0300CBE149 /* Obj-CTableViewController.h */,
 				C876CB261EB3108F00CBE149 /* Obj-CTableViewCell.m */,
-				612138121EB84C9300F3DF85 /* Intro */,
-				612138161EB84CD400F3DF85 /* Basics */,
-				612138171EB84E2400F3DF85 /* Functions */,
-				612138181EB84E3D00F3DF85 /* Blocks */,
-				612138191EB84E6300F3DF85 /* Number & Strings */,
+				C876CB231EB30C0300CBE149 /* Obj-CTableViewController.m */,
 				6121381A1EB84E7B00F3DF85 /* All Storage Types */,
-				6121381B1EB84EE100F3DF85 /* Pointers */,
-				6121381C1EB84EEC00F3DF85 /* Structures */,
-				6121381D1EB84EFE00F3DF85 /* Preprocessors */,
-				6121381E1EB84F1500F3DF85 /* Typedef */,
-				6121381F1EB84F2A00F3DF85 /* Type Casting */,
-				612138201EB84F4C00F3DF85 /* Log Handling */,
+				612138161EB84CD400F3DF85 /* Basics */,
+				612138181EB84E3D00F3DF85 /* Blocks */,
+				612138271EB850E300F3DF85 /* Categories */,
+				612138231EB84FBB00F3DF85 /* Classes & Objects */,
+				6121382C1EB8515E00F3DF85 /* Composite Objects */,
+				612138261EB850B100F3DF85 /* Data Encapsulation */,
+				6121382B1EB8514A00F3DF85 /* Dynamic Binding */,
 				612138211EB84F6400F3DF85 /* Error Handling */,
-				6121382F1EB851C400F3DF85 /* Memory Management */,
+				612138291EB8512600F3DF85 /* Extensions */,
 				6121382E1EB851AE00F3DF85 /* Fast Enumeration */,
 				6121382D1EB8519B00F3DF85 /* Foundation Framework */,
-				6121382C1EB8515E00F3DF85 /* Composite Objects */,
-				6121382B1EB8514A00F3DF85 /* Dynamic Binding */,
-				6121382A1EB8513A00F3DF85 /* Protocols / Delegates */,
-				612138291EB8512600F3DF85 /* Extensions */,
-				612138281EB8511100F3DF85 /* Posing */,
-				612138271EB850E300F3DF85 /* Categories */,
-				612138261EB850B100F3DF85 /* Data Encapsulation */,
-				612138251EB8509B00F3DF85 /* Polymorphism */,
+				612138171EB84E2400F3DF85 /* Functions */,
 				612138241EB8508700F3DF85 /* Inheritance */,
-				612138231EB84FBB00F3DF85 /* Classes & Objects */,
+				612138121EB84C9300F3DF85 /* Intro */,
+				612138201EB84F4C00F3DF85 /* Log Handling */,
+				6121382F1EB851C400F3DF85 /* Memory Management */,
 				612138221EB84F9F00F3DF85 /* Multi Threading */,
+				612138191EB84E6300F3DF85 /* Number & Strings */,
+				6121381B1EB84EE100F3DF85 /* Pointers */,
+				612138251EB8509B00F3DF85 /* Polymorphism */,
+				612138281EB8511100F3DF85 /* Posing */,
+				6121381D1EB84EFE00F3DF85 /* Preprocessors */,
+				6121382A1EB8513A00F3DF85 /* Protocols / Delegates */,
+				6121381C1EB84EEC00F3DF85 /* Structures */,
+				6121381F1EB84F2A00F3DF85 /* Type Casting */,
+				6121381E1EB84F1500F3DF85 /* Typedef */,
 			);
 			name = "Objective-C basic";
-			sourceTree = "<group>";
-		};
-		C8D1CDC01EBF527800F9FAB9 /* Delegates */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Delegates;
-			sourceTree = "<group>";
-		};
-		C8D1CDC11EBF528F00F9FAB9 /* UIElements */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = UIElements;
-			sourceTree = "<group>";
-		};
-		C8D1CDC21EBF52A100F9FAB9 /* Tables */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Tables;
 			sourceTree = "<group>";
 		};
 		C8D1CDC31EBF52B000F9FAB9 /* Device Sensors */ = {
@@ -529,20 +953,6 @@
 			children = (
 			);
 			name = "Camara Management";
-			sourceTree = "<group>";
-		};
-		C8D1CDC51EBF52EA00F9FAB9 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
-		C8D1CDC61EBF52F700F9FAB9 /* Location Handling */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Location Handling";
 			sourceTree = "<group>";
 		};
 		C8D1CDC71EBF531400F9FAB9 /* Audio & Video */ = {
@@ -566,20 +976,6 @@
 			name = CoreData;
 			sourceTree = "<group>";
 		};
-		C8D1CDCA1EBF535F00F9FAB9 /* Social Media */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Social Media";
-			sourceTree = "<group>";
-		};
-		C8D1CDCB1EBF537000F9FAB9 /* In-App Purchase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "In-App Purchase";
-			sourceTree = "<group>";
-		};
 		C8D1CDCC1EBF538F00F9FAB9 /* IAd Integration */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,25 +983,11 @@
 			name = "IAd Integration";
 			sourceTree = "<group>";
 		};
-		C8D1CDCD1EBF53A600F9FAB9 /* Health-Kit */ = {
+		C8D1CDCE1EBF53C700F9FAB9 /* WatchKit */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "Health-Kit";
-			sourceTree = "<group>";
-		};
-		C8D1CDCE1EBF53C700F9FAB9 /* Watch-Kit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Watch-Kit";
-			sourceTree = "<group>";
-		};
-		C8D1CDCF1EBF53D500F9FAB9 /* Widgets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Widgets;
+			name = WatchKit;
 			sourceTree = "<group>";
 		};
 		C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */ = {
@@ -754,6 +1136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				612138511EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m in Sources */,
+				61274B431ECB24F200CB7AC9 /* UIControlsViewController.m in Sources */,
 				C86183CD1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld in Sources */,
 				612138471EB89FDF00F3DF85 /* OpeningDeviceAppsViewController.m in Sources */,
 				C86183C41EAE60F7000C08DA /* AppDelegate.m in Sources */,
@@ -763,10 +1146,15 @@
 				C821E7BA1EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m in Sources */,
 				612138111EB84C8000F3DF85 /* Obj-CIntroViewController.m in Sources */,
 				6121383B1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m in Sources */,
+				61274B3D1ECB23D000CB7AC9 /* UIBarsViewController.m in Sources */,
+				61274B041ECADD5700CB7AC9 /* InAppPurchaseViewController.m in Sources */,
 				C8DFDCC31EAFBE0400A1E4F1 /* SimpleTableViewCell.m in Sources */,
+				61274B461ECB251200CB7AC9 /* UIExtensionsViewController.m in Sources */,
+				61274B401ECB23EF00CB7AC9 /* UIViewsViewController.m in Sources */,
 				C821E7B71EC29DD000D3AF8D /* Obj-PolymorphismViewController.m in Sources */,
 				6121383E1EB88A9D00F3DF85 /* NSString+RemoveNums.m in Sources */,
 				C8DFDCBD1EAFBB9400A1E4F1 /* SimpleTableViewController.m in Sources */,
+				61274B491ECB254000CB7AC9 /* UITechnologiesViewController.m in Sources */,
 				C89D83781EBF661600386DEB /* Obj-InheritanceViewController.m in Sources */,
 				612138351EB8841700F3DF85 /* Obj-CFunctionsViewController.m in Sources */,
 				612138381EB8848A00F3DF85 /* Obj-CBlocksViewController.m in Sources */,

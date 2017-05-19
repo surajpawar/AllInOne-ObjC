@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    marr_TutorialsList = [[NSMutableArray alloc] initWithObjects:@"Objective-C basic",@"IMP Codes",@"Delegates",@"UIElements",@"Tables",@"Device Sensors",@"Camera Management",@"Maps & Location Handling",@"Audio & Video",@"SQLite Database",@"Core Data",@"Social Media",@"In-App Purchase",@"iAd Integration",@"Health-Kit",@"Watch-Kit",@"Widgets", nil];
+    marr_TutorialsList = [[NSMutableArray alloc] initWithObjects:@"Objective-C basic",@"IMP Codes",@"UI Bars",@"UI Views",@"UI Controls",@"Extensions",@"Technologies",@"Device Sensors",@"Camera Management",@"Maps & Location Handling",@"Audio & Video",@"SQLite Database",@"Core Data",@"iAd Integration",@"WatchKit", nil];
 }
 
 - (void)didReceiveMemoryWarning {

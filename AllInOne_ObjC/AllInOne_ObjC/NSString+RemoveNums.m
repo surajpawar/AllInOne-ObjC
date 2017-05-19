@@ -45,20 +45,85 @@
 
 /*
  
+ ****** 1.category ******
+ 
+ -> In objective c, when you want to add some more   functionality to a class without inheritance, you simply use category for it.
+ 
+ -> it come with its own .h and .m file
+ 
+ -> Category use to add new method not properties.
+ 
+ -> Category is a way to add methods to a class whether or not source code is available implies you can add category to foundation classes like NSString and also to your own custom classes
+ 
+ 
+ ***** 2.class extension ******
+ 
+ -> In objective c, when you want to make behavior of some property private you use class extension.
+ 
+ -> it comes with .m file only.
+ 
+ -> mainly for properties.
+ 
+ -> Extension can only be added to the classes whose source code is available because compiler compile the source code and extension at same time.
+ 
+ -> We can add extra instance variable and property in class extension but not in Category.
+ 
+ -> Any variable and method inside the extension is not even accessible to inherited class.
+ 
+ -> Category and Extension both are basically made to handle large code base but category is a way to extend class API in multiple source file while extension is a way to add required methods out side the main interface file.
+ 
+ -> Use category when you have to break your same class code into different source file according to different functionality and Extension when you just need to add some required methods to existing class outside the main interface file. also when you need to modify a publicly declared instance variable in a class. for ex: readonly to readwrite you can re declare it in extension.
+ 
+ 
+ 
+ * note: when we add a new file and select a option of objective c category it show category and "category on" not "subclass of" so it show like
+ 
+ @interface className (categoryName)
+ @end
+ -you get two file .h and . with file name as (className+categoryName.h and className+categoryName.m)
+ 
+ and in extension case you get
+ 
+ @interface className()
+ @end
+ -you get only one file with name as className_extensionName.h
+ 
+ * In category you don't own the class but in extension you are.
+ 
 */
 
 #pragma mark - Difference between Categories & SubClass
-//Difference between Categories & Extensions
+//Difference between Categories & SubClass
 
 /*
+ 
+ -> Categories let you expand the API of existing classes without changing their type. Subclassing also expands the API but introduces a new type. Additionally, subclassing lets you add state.
+ 
+ -> Category : It is used if we want to add any method on a given class whose source is not known. This is basically used when we want to alter the behaviour of any Class.
+ 
+    For example : If we want to add a method on NSString to reverse a string we can go for categories.
+ 
+ -> Subclassing : If we want to modify state as well as behaviour of any class or override any methods to alter the behaviour of the parent class then we go for subclassing.
+ 
+    For example : We subclass UIView to alter its state and behaviour in our iOS code.
  
  */
 
 
 #pragma mark - Difference between Categories & Delegate
-//Difference between Categories & Extensions
+//Difference between Categories & Delegate
 
 /*
+ 
+ -> A protocol is the same thing as an interface in Java: it's essentially a contract that says, "Any class that implements this protocol will also implement these methods."
+ 
+ -> A category, on the other hand, just binds methods to a class. For example, in Cocoa, I can create a category for NSObject that will allow me to add methods to the NSObject class (and, of course, all subclasses), even though I don't really have access to NSObject.
+ 
+ To summarize: a protocol specifies what methods a class will implement; a category adds methods to an existing class.
+ 
+ -> The proper use of each, then, should be clear: Use protocols to declare a set of methods that a class must implement, and use categories to add methods to an existing class.
+ 
+ -> A protocol says, "here are some methods I'd like you to implement." A category says, "I'm extending the functionality of this class with these additional methods."
  
  */
 
