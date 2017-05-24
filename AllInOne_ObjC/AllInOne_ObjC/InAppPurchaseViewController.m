@@ -31,6 +31,29 @@
  
         On the contrary to the previous case, a non-renewable subscription lasts one time only and expires. It’s useful in cases the provided service doesn’t require a new subscription, and it’s going to end after a period of time.
  
+ //0-
+ healthkit ( read & write )
+ camera
+ maps
+ live chat
+ 
+ 
+ //1-
+ Language localization ( English, russian )
+ Audio & video ( spotify, itunes and other )
+ iCarousel
+ Graphs( line and bar )
+ 
+ 
+ //2
+ 
+ 
+ 
+ 
+ 
+ //3
+ 
+ 
  
  
 */

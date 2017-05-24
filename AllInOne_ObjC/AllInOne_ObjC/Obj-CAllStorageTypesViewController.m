@@ -8,7 +8,44 @@
 
 #import "Obj-CAllStorageTypesViewController.h"
 
-@interface Obj_CAllStorageTypesViewController ()
+#pragma mark - Tutorials for Storage types
+//
+
+/*
+ 
+ 
+*/
+
+
+#pragma mark - ****** Questions ******
+
+#pragma mark - Difference between Simple and Mutable
+//
+
+/*
+ 
+ 
+*/
+
+
+@interface Obj_CAllStorageTypesViewController (){
+    
+    //Declaring all storage types privately
+    
+    //Simple
+    NSArray *arr_Sample;
+    NSDictionary *dic_Sample;
+    NSSet *set_Sample;
+    NSData *data_Sample;
+    
+    
+    //Mutable
+    NSMutableArray *marr_Sample;
+    NSMutableDictionary *mdic_Sample;
+    NSMutableSet *mset_Samaple;
+    NSMutableData *mdata_Sample;
+    
+}
 
 @end
 
@@ -21,6 +58,32 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
+
+
+//Use of simple array all methods
+- (void)nsarraySample
+{
+    
+}
+
+//Use of simple dictionary all methods
+- (void)nsdictionarySample
+{
+    
+}
+
+//Use of simple set all methods
+-(void)nssetSample
+{
+    
+}
+
+//Use of simple data all methods
+-(void)nsdataSample
+{
+    
+}
+
 
 
 @end
