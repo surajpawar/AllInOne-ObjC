@@ -60,10 +60,14 @@
     
     if (indexPath.row==0) {
         
-        Obj_CTableViewController *objc_VC = [[self storyboard]instantiateViewControllerWithIdentifier:@"Obj_CTableViewController"];
-        [self.navigationController pushViewController:objc_VC animated:YES];
+//        Obj_CTableViewController *objc_VC = [[self storyboard]instantiateViewControllerWithIdentifier:@"Obj_CTableViewController"];
+//        [self.navigationController pushViewController:objc_VC animated:YES];
         
+    
+        Obj_CTableViewController *objc_VC = [[UIStoryboard storyboardWithName:@"Obj-C" bundle:nil]instantiateViewControllerWithIdentifier:@"Obj_CTableViewController"];
+        [self.navigationController pushViewController:objc_VC animated:YES];
     }
+    
 }
 
 @end
