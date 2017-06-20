@@ -17,6 +17,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    double screenHeight = [[UIScreen mainScreen] bounds].size.height;
+    if(UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad)
+    {
+        NSLog(@"All iPads");
+    } else if (UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPhone)
+    {
+        if(screenHeight == 480) {
+            NSLog(@"iPhone 4/4S");
+            
+        } else if (screenHeight == 568) {
+            NSLog(@"iPhone 5/5S/SE");
+            
+        } else if (screenHeight == 667) {
+            NSLog(@"iPhone 6/6S");
+        } else if (screenHeight == 736) {
+            NSLog(@"iPhone 6+, 6S+");
+        } else {
+            NSLog(@"Others");
+        }
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

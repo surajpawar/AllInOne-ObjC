@@ -23,9 +23,12 @@
 		61274B431ECB24F200CB7AC9 /* UIControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B421ECB24F200CB7AC9 /* UIControlsViewController.m */; };
 		61274B461ECB251200CB7AC9 /* UIExtensionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B451ECB251200CB7AC9 /* UIExtensionsViewController.m */; };
 		61274B491ECB254000CB7AC9 /* UITechnologiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61274B481ECB254000CB7AC9 /* UITechnologiesViewController.m */; };
+		617E83401ED6BA75008C604B /* Project-Initation.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 617E833F1ED6BA75008C604B /* Project-Initation.rtf */; };
+		617E83421ED6BAA1008C604B /* Working-Instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 617E83411ED6BAA1008C604B /* Working-Instructions.rtf */; };
+		617E83441ED6BB19008C604B /* AppStore-Instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 617E83431ED6BB19008C604B /* AppStore-Instructions.rtf */; };
 		C821E7B71EC29DD000D3AF8D /* Obj-PolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C821E7B61EC29DD000D3AF8D /* Obj-PolymorphismViewController.m */; };
 		C821E7BA1EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C821E7B91EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m */; };
-		C82B883C1EB8048F00D3E56B /* Instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C82B883B1EB8048F00D3E56B /* Instructions.rtf */; };
+		C82B883C1EB8048F00D3E56B /* Coding-Standerds.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C82B883B1EB8048F00D3E56B /* Coding-Standerds.rtf */; };
 		C86183C11EAE60F7000C08DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183C01EAE60F7000C08DA /* main.m */; };
 		C86183C41EAE60F7000C08DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C86183C31EAE60F7000C08DA /* AppDelegate.m */; };
 		C86183CA1EAE60F7000C08DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86183C81EAE60F7000C08DA /* Main.storyboard */; };
@@ -94,11 +97,14 @@
 		61274B451ECB251200CB7AC9 /* UIExtensionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIExtensionsViewController.m; sourceTree = "<group>"; };
 		61274B471ECB254000CB7AC9 /* UITechnologiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITechnologiesViewController.h; sourceTree = "<group>"; };
 		61274B481ECB254000CB7AC9 /* UITechnologiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITechnologiesViewController.m; sourceTree = "<group>"; };
+		617E833F1ED6BA75008C604B /* Project-Initation.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Project-Initation.rtf"; sourceTree = "<group>"; };
+		617E83411ED6BAA1008C604B /* Working-Instructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Working-Instructions.rtf"; sourceTree = "<group>"; };
+		617E83431ED6BB19008C604B /* AppStore-Instructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "AppStore-Instructions.rtf"; sourceTree = "<group>"; };
 		C821E7B51EC29DD000D3AF8D /* Obj-PolymorphismViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-PolymorphismViewController.h"; sourceTree = "<group>"; };
 		C821E7B61EC29DD000D3AF8D /* Obj-PolymorphismViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-PolymorphismViewController.m"; sourceTree = "<group>"; };
 		C821E7B81EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-Encapsulation&AbstractionViewController.h"; sourceTree = "<group>"; };
 		C821E7B91EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-Encapsulation&AbstractionViewController.m"; sourceTree = "<group>"; };
-		C82B883B1EB8048F00D3E56B /* Instructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Instructions.rtf; sourceTree = "<group>"; };
+		C82B883B1EB8048F00D3E56B /* Coding-Standerds.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Coding-Standerds.rtf"; sourceTree = "<group>"; };
 		C86183BC1EAE60F7000C08DA /* AllInOne_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOne_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86183C01EAE60F7000C08DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C86183C21EAE60F7000C08DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -825,6 +831,29 @@
 			name = "Design Patterns";
 			sourceTree = "<group>";
 		};
+		616138D01EDBE2B6003C8B2A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */,
+				C876CB211EB30B7800CBE149 /* Objective-C basic */,
+				61274B051ECB099F00CB7AC9 /* UI Bars */,
+				61274B061ECB0A2C00CB7AC9 /* UI Views */,
+				61274B071ECB0A4400CB7AC9 /* UI Controls */,
+				61274B081ECB0A7900CB7AC9 /* Extensions */,
+				61274B091ECB0A8200CB7AC9 /* Technologies */,
+				612138441EB89F3B00F3DF85 /* IMP Codes */,
+				C8D1CDCE1EBF53C700F9FAB9 /* WatchKit */,
+				C8D1CDCC1EBF538F00F9FAB9 /* IAd Integration */,
+				C8D1CDC91EBF534700F9FAB9 /* CoreData */,
+				C8D1CDC81EBF532F00F9FAB9 /* Sqlite Database */,
+				C8D1CDC71EBF531400F9FAB9 /* Audio & Video */,
+				C8D1CDC41EBF52C700F9FAB9 /* Camara Management */,
+				C8D1CDC31EBF52B000F9FAB9 /* Device Sensors */,
+				61274B3A1ECB222C00CB7AC9 /* Design Patterns */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
 		C86183B31EAE60F7000C08DA = {
 			isa = PBXGroup;
 			children = (
@@ -848,27 +877,15 @@
 		C86183BE1EAE60F7000C08DA /* AllInOne_ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				C82B883B1EB8048F00D3E56B /* Instructions.rtf */,
+				617E833F1ED6BA75008C604B /* Project-Initation.rtf */,
+				C82B883B1EB8048F00D3E56B /* Coding-Standerds.rtf */,
+				617E83411ED6BAA1008C604B /* Working-Instructions.rtf */,
+				617E83431ED6BB19008C604B /* AppStore-Instructions.rtf */,
 				C86183C21EAE60F7000C08DA /* AppDelegate.h */,
 				C86183C31EAE60F7000C08DA /* AppDelegate.m */,
 				C86183C81EAE60F7000C08DA /* Main.storyboard */,
 				C86183CE1EAE60F7000C08DA /* Assets.xcassets */,
-				C8DFDCC01EAFBDC700A1E4F1 /* Simple Table */,
-				C876CB211EB30B7800CBE149 /* Objective-C basic */,
-				61274B051ECB099F00CB7AC9 /* UI Bars */,
-				61274B061ECB0A2C00CB7AC9 /* UI Views */,
-				61274B071ECB0A4400CB7AC9 /* UI Controls */,
-				61274B081ECB0A7900CB7AC9 /* Extensions */,
-				61274B091ECB0A8200CB7AC9 /* Technologies */,
-				612138441EB89F3B00F3DF85 /* IMP Codes */,
-				C8D1CDCE1EBF53C700F9FAB9 /* WatchKit */,
-				C8D1CDCC1EBF538F00F9FAB9 /* IAd Integration */,
-				C8D1CDC91EBF534700F9FAB9 /* CoreData */,
-				C8D1CDC81EBF532F00F9FAB9 /* Sqlite Database */,
-				C8D1CDC71EBF531400F9FAB9 /* Audio & Video */,
-				C8D1CDC41EBF52C700F9FAB9 /* Camara Management */,
-				C8D1CDC31EBF52B000F9FAB9 /* Device Sensors */,
-				61274B3A1ECB222C00CB7AC9 /* Design Patterns */,
+				616138D01EDBE2B6003C8B2A /* Modules */,
 				C86183D01EAE60F7000C08DA /* LaunchScreen.storyboard */,
 				C86183D31EAE60F7000C08DA /* Info.plist */,
 				C86183CB1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld */,
@@ -1109,8 +1126,11 @@
 			files = (
 				C86183D21EAE60F7000C08DA /* LaunchScreen.storyboard in Resources */,
 				C86183CF1EAE60F7000C08DA /* Assets.xcassets in Resources */,
+				617E83441ED6BB19008C604B /* AppStore-Instructions.rtf in Resources */,
 				C86183CA1EAE60F7000C08DA /* Main.storyboard in Resources */,
-				C82B883C1EB8048F00D3E56B /* Instructions.rtf in Resources */,
+				617E83401ED6BA75008C604B /* Project-Initation.rtf in Resources */,
+				617E83421ED6BAA1008C604B /* Working-Instructions.rtf in Resources */,
+				C82B883C1EB8048F00D3E56B /* Coding-Standerds.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
