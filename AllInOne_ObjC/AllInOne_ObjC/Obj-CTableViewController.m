@@ -8,6 +8,7 @@
 
 #import "Obj-CTableViewController.h"
 #import "Obj-CTableViewCell.h"
+#import "Obj-CBlocksViewController.h"
 
 @interface Obj_CTableViewController ()
 
@@ -39,7 +40,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *identifier = @"Obj_CTableViewCell";
+    static NSString *identifier = @"Obj-CTableViewCell";
     
     Obj_CTableViewCell *objc_Cell = [_tbl_ObjCTutorials dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
     
@@ -53,6 +54,12 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if(indexPath.row==3){
+        
+        Obj_CBlocksViewController *obj_;
+        
+    }
     
 }
 

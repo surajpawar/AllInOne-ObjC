@@ -80,7 +80,7 @@
  
  @interface className (categoryName)
  @end
- -you get two file .h and . with file name as (className+categoryName.h and className+categoryName.m)
+ -you get two file .h and .m with file name as (className+categoryName.h and className+categoryName.m)
  
  and in extension case you get
  
