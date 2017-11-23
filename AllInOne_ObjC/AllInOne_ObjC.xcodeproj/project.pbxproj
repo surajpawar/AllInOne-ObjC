@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1624EF911FC6F4D60034B2B1 /* OOPsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624EF901FC6F4D60034B2B1 /* OOPsController.m */; };
+		1624EF941FC6F6AE0034B2B1 /* GCD_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624EF931FC6F6AE0034B2B1 /* GCD_ViewController.m */; };
+		1624EF971FC6F6FD0034B2B1 /* NSOperationQueue_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624EF961FC6F6FD0034B2B1 /* NSOperationQueue_ViewController.m */; };
 		612138111EB84C8000F3DF85 /* Obj-CIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138101EB84C8000F3DF85 /* Obj-CIntroViewController.m */; };
 		612138321EB8685A00F3DF85 /* Obj-CBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138311EB8685A00F3DF85 /* Obj-CBasicViewController.m */; };
 		612138351EB8841700F3DF85 /* Obj-CFunctionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612138341EB8841700F3DF85 /* Obj-CFunctionsViewController.m */; };
@@ -64,6 +67,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1624EF901FC6F4D60034B2B1 /* OOPsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOPsController.m; sourceTree = "<group>"; };
+		1624EF921FC6F6AE0034B2B1 /* GCD_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_ViewController.h; sourceTree = "<group>"; };
+		1624EF931FC6F6AE0034B2B1 /* GCD_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_ViewController.m; sourceTree = "<group>"; };
+		1624EF951FC6F6FD0034B2B1 /* NSOperationQueue_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationQueue_ViewController.h; sourceTree = "<group>"; };
+		1624EF961FC6F6FD0034B2B1 /* NSOperationQueue_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueue_ViewController.m; sourceTree = "<group>"; };
 		6121380F1EB84C8000F3DF85 /* Obj-CIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CIntroViewController.h"; sourceTree = "<group>"; };
 		612138101EB84C8000F3DF85 /* Obj-CIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Obj-CIntroViewController.m"; sourceTree = "<group>"; };
 		612138301EB8685A00F3DF85 /* Obj-CBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Obj-CBasicViewController.h"; sourceTree = "<group>"; };
@@ -161,6 +169,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1624EF981FC6F70A0034B2B1 /* NSOperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				1624EF951FC6F6FD0034B2B1 /* NSOperationQueue_ViewController.h */,
+				1624EF961FC6F6FD0034B2B1 /* NSOperationQueue_ViewController.m */,
+			);
+			name = NSOperationQueue;
+			sourceTree = "<group>";
+		};
+		1624EF991FC6F71C0034B2B1 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				1624EF921FC6F6AE0034B2B1 /* GCD_ViewController.h */,
+				1624EF931FC6F6AE0034B2B1 /* GCD_ViewController.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
 		612138121EB84C9300F3DF85 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +293,8 @@
 		612138221EB84F9F00F3DF85 /* Multi Threading */ = {
 			isa = PBXGroup;
 			children = (
+				1624EF991FC6F71C0034B2B1 /* GCD */,
+				1624EF981FC6F70A0034B2B1 /* NSOperationQueue */,
 			);
 			name = "Multi Threading";
 			sourceTree = "<group>";
@@ -298,13 +326,13 @@
 			name = Polymorphism;
 			sourceTree = "<group>";
 		};
-		612138261EB850B100F3DF85 /* Data Encapsulation */ = {
+		612138261EB850B100F3DF85 /* Encapsulation / Abstraction */ = {
 			isa = PBXGroup;
 			children = (
 				C821E7B81EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.h */,
 				C821E7B91EC29F1C00D3AF8D /* Obj-Encapsulation&AbstractionViewController.m */,
 			);
-			name = "Data Encapsulation";
+			name = "Encapsulation / Abstraction";
 			sourceTree = "<group>";
 		};
 		612138271EB850E300F3DF85 /* Categories */ = {
@@ -890,7 +918,6 @@
 				616138D01EDBE2B6003C8B2A /* Modules */,
 				C86183D01EAE60F7000C08DA /* LaunchScreen.storyboard */,
 				C86183D31EAE60F7000C08DA /* Info.plist */,
-				C86183CB1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld */,
 				C86183BF1EAE60F7000C08DA /* Supporting Files */,
 			);
 			path = AllInOne_ObjC;
@@ -990,6 +1017,7 @@
 		C8D1CDC91EBF534700F9FAB9 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				C86183CB1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -1022,7 +1050,8 @@
 		C8EA20001EDE3E6D0035921C /* OOP's */ = {
 			isa = PBXGroup;
 			children = (
-				612138261EB850B100F3DF85 /* Data Encapsulation */,
+				1624EF901FC6F4D60034B2B1 /* OOPsController.m */,
+				612138261EB850B100F3DF85 /* Encapsulation / Abstraction */,
 				612138241EB8508700F3DF85 /* Inheritance */,
 				612138251EB8509B00F3DF85 /* Polymorphism */,
 			);
@@ -1167,6 +1196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1624EF941FC6F6AE0034B2B1 /* GCD_ViewController.m in Sources */,
 				612138511EB8BA4600F3DF85 /* Obj-CAllStorageTypesViewController.m in Sources */,
 				61274B431ECB24F200CB7AC9 /* UIControlsViewController.m in Sources */,
 				C86183CD1EAE60F7000C08DA /* AllInOne_ObjC.xcdatamodeld in Sources */,
@@ -1179,6 +1209,7 @@
 				612138111EB84C8000F3DF85 /* Obj-CIntroViewController.m in Sources */,
 				6121383B1EB884FF00F3DF85 /* Obj-CNum&StrViewController.m in Sources */,
 				61274B3D1ECB23D000CB7AC9 /* UIBarsViewController.m in Sources */,
+				1624EF911FC6F4D60034B2B1 /* OOPsController.m in Sources */,
 				61274B041ECADD5700CB7AC9 /* InAppPurchaseViewController.m in Sources */,
 				C8DFDCC31EAFBE0400A1E4F1 /* SimpleTableViewCell.m in Sources */,
 				61274B461ECB251200CB7AC9 /* UIExtensionsViewController.m in Sources */,
@@ -1194,6 +1225,7 @@
 				C876CB241EB30C0300CBE149 /* Obj-CTableViewController.m in Sources */,
 				612138321EB8685A00F3DF85 /* Obj-CBasicViewController.m in Sources */,
 				C876CB271EB3108F00CBE149 /* Obj-CTableViewCell.m in Sources */,
+				1624EF971FC6F6FD0034B2B1 /* NSOperationQueue_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

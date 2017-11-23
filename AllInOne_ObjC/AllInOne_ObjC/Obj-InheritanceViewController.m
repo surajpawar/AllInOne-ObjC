@@ -37,6 +37,13 @@
  In case the inherited class implements the method in base class, then the method in derived class is executed.
  
 
+ ********* Types Of Inheritance ***************
+ 
+ 
+ 
+ 
+ 
+ 
  
 */
 
